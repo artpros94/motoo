@@ -1,0 +1,505 @@
+@media(max-width: 1290px){
+    .header__menu-social {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .header__top {
+        padding-right: 120px;
+    }
+    .header__menu-social li {
+        background-color: #cd0a2d;
+        margin-bottom: 25px;
+    }
+    .header__menu-social li + li{
+        margin-left: 0px;
+    
+    }
+    .header__fixed {
+        right: 15px;
+    }
+    .world__right-inner {
+        padding-left: 165px;
+    }
+    .world__left {
+        padding-left: 10px;
+    }
+    
+}
+@media (max-width: 1170px){
+    .world__right-inner {
+        padding-left: 125px;
+    }
+    .world__right-user {
+        margin-right: 10px;
+    }
+    .world__moto {
+        top: 10px;
+    }
+    .world__moto img {
+        max-height: 675px;
+    }
+    .price {
+        padding-bottom: 50px;
+    }
+    .guide__moto img {
+        max-width: 365px;
+    }
+}
+@media(max-width: 1060px){
+    .header__title {
+        font-size: 35px;
+    }
+    .header__title-images img {
+        max-width: 590px;
+    }
+    .header__title-images {
+        top: 160px;
+    }
+    .header__top {
+        padding-right: 75px;
+    } 
+    .header__menu {
+        display: block;
+        position: absolute;
+        top: 125px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        z-index: 15;
+        background-color: #cd0a2d;
+        border-bottom: 1px solid #fff;
+        margin-top: 10px;
+    }
+    .menu__btn {
+        display: block;
+    }
+    .header__top {
+        flex-wrap: wrap;
+    }
+    .header__menu li {
+        display: block;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: 1px solid #ffffff;
+    }
+    .header__menu li + li {
+        margin-left: 0;
+    }
+    .price__inner {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .price__item {
+        margin-bottom: 20px;
+    }
+    .world__right-inner {
+        padding-left: 75px;
+        padding-top: 35px;
+    }
+    .world__moto img {
+        max-height: 550px;
+    }
+    .world__moto {
+        top: 73px;
+    }
+    .world__border-left {
+        display: none;
+    }
+    .world__border-right {
+        display: none;
+    }
+    .world__left-title {
+        font-size: 40px;
+    }
+    .guide__moto img {
+        max-width: 285px;
+    }
+    .blog__inner {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .blog__text {
+        padding-top: 30px;
+    }
+    .blog__item {
+        padding-bottom: 30px;
+
+    }
+    
+}
+@media(max-width: 1000px){
+    .world__content {
+        flex-wrap: wrap;
+    }
+    .world__left p {
+        margin-bottom: 35px;
+        padding-left: 200px;
+    }
+    .world__left {
+        width: 100%;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .world__right {
+        width: 100%;
+        margin-top: 0;
+    }
+    .world__right-item {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .world__moto {
+        top: -315px;
+    }
+    .world__moto img {
+        max-height: 550px;
+        transform: rotate(90deg);
+    }
+    .price {
+        padding-bottom: 150px;
+    }
+    .world {
+        padding-bottom: 30px;
+    }
+    .about__inner-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about__user {
+        margin-bottom: 45px;
+        padding-top: 20px;
+    }
+    .about__text-description {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .guide__moto {
+        top: 435px;
+    }
+    .guide__moto img {
+        max-width: 268px;
+    }
+    .box__left {
+        padding-top: 30px;
+    }
+    .box__right {
+        padding-top: 30px;
+    }
+    .guide__item-first {
+        margin-right: 50px;
+    }
+    element.style {
+    }
+    .quote__text {
+        width: 100%;
+        padding-top: 60px;
+       
+    }
+    .quote__text-description {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .quote {
+        height: 345px;
+    }
+    
+}
+@media(max-width: 850px){
+    .header__title {
+        font-size: 28px;
+    }
+    .header__title-images img {
+        max-width: 500px;
+    }
+    .guide__moto img {
+        display: none;
+    }
+    .guide__inner {
+        flex-wrap: wrap;
+    }
+    .guide__border-left {
+        background-color: rgba(205, 10, 45, 0.8);
+        display: none;
+    }
+    .guide__box-left {
+        padding-bottom: 30px;
+        background-color: rgba(205, 10, 45, 0.8);
+        width: 100%;
+    }
+    .guide__left-text {
+        padding-right: 15px;
+        padding-right: 15px;
+    }
+    .box__left {
+        padding-left: 0px;
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+    .guide__box-right {
+        width: 100%;
+    }
+    .guide__right-text {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .box__right {
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    .guide__box-inner {
+        justify-content: center;
+        align-items: center;
+    }
+    .guide__text-description {
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+@media(max-width: 750px){
+    .header__menu-social {
+        display: block;
+       
+    }
+    .header__menu-social li {
+        background-color: transparent;
+       
+    }
+    .header__fixed {
+        top: 35px;
+    }
+    .header__top {
+        padding-top: 75px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__menu-social li + li{
+        margin-left: 23px;
+    
+    }
+    .header {
+        height: 92vh;
+    }
+    .world__left p {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .about__images img {
+        max-width: 100%;
+    }
+    .about__comment {
+        margin-top: 15px;
+    }
+    .quote__label::before {
+        font-size: 130px;
+        bottom: -50px;
+    }
+    .info__inner {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 65px;
+    }
+    .info__item {
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 25px;
+    }
+}
+@media(max-width: 650px){
+    .about__images img {
+        display: none;
+    }
+    .about__comment {
+        max-width: 100%;
+    }
+    .info__icons {
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+    }
+    .info__icon {
+        margin-bottom: 15px;
+    }
+    .info__inner {
+        padding-bottom: 15px;
+    }
+}
+@media(max-width: 600px){
+    .header__top {
+        margin-bottom: 20px;
+    }
+    .header__title {
+        font-size: 21px;
+        line-height: 50px;
+    }
+    .header__title-images img {
+        max-width: 400px;
+    }
+    .header__title-images {
+        top: 100px;
+    }
+    .price__item {
+        margin-right: 0px;
+        margin-left: 10px;
+
+    }
+    .header {
+        height: 70vh;
+    }
+    .world__moto img {
+        max-height: 420px;
+    }
+    .world__moto {
+        top: -240px;
+    }
+    .world__right-inner {
+        padding-left: 10px;
+    }
+    .guide__text-title {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .guide__text {
+        padding-top: 30px;
+    }
+    .guide__item-second h6 {
+        font-size: 45px;
+    }
+    .guide__item-second p {
+        font-size: 30px;
+    }
+    .guide__item-first h6 {
+        font-size: 45px;
+    }
+    .guide__item-first p {
+        font-size: 25px;
+    }
+    .guide__item-fourth h6 {
+        font-size: 40px;
+    }
+    .guide__item-fourth p {
+        font-size: 22px;
+    }
+    .guide__item-third p {
+        font-size: 30px;
+    }
+    .guide__item-third h6 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .blog__item {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 500px){
+    .world__left p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .world__left-title {
+        font-size: 30px;
+    }
+    .about__text-title {
+        font-size: 50px;
+    }
+    .about__user {
+        margin-bottom: 20px;
+    }
+    .blog__text-title {
+        font-size: 50px;
+    }
+    .quote__text-title {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    .quote {
+        height: 270px;
+    }
+    
+}
+@media(max-width: 450px){
+    .header__title-images img {
+        max-width: 335px;
+    }
+    .header__title {
+        font-size: 17px;
+    }
+    .header__logo::after {
+        content: '';
+        position: absolute;
+        top: 70px;
+        left: 120px;
+        z-index: -1;
+        border: 38px solid transparent;
+        border-top: 38px solid #000000;
+        border-right: 41px solid #000;
+    }
+    .price__images::before {
+        border: 80px solid transparent;
+        border-bottom: 86px solid #cd0a2d;
+        border-left: 78px solid #cd0a2d;
+        bottom: -5px;
+        left: -5px;
+
+    }
+    .world__moto img {
+        max-height: 290px;
+    }
+    .world__moto {
+        top: -150px;
+    }
+    .price {
+        padding-bottom: 60px;
+    }
+    .world__right-item {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .world__right-title h3 {
+        justify-content: center;
+    }
+    .blog__images::before {
+        border: 80px solid transparent;
+        border-bottom: 86px solid #cd0a2d;
+        border-left: 78px solid #cd0a2d;
+        bottom: -5px;
+        left: -5px;
+    }
+    .quote__label::before {
+        font-size: 75px;
+        bottom: -30px;
+    }
+    .info__icons .info__icon + .info__icon {
+        margin-left: 0;
+    }
+    .info__icon {
+        margin-right: 20px;
+        /* margin-left: 20px; */
+    }
+}
+
+@media(max-width: 350px){
+    .header__title-images img {
+        max-width: 290px;
+    }
+    .header__top {
+        margin-bottom: 35px;
+    }
+    .quote__label {
+        display: none;
+    }
+    .footer__inner {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media(min-width: 1060px){
+    .header__menu {
+        display: flex !important;
+    }
+}
